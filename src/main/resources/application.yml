@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: twitter_crawler
+  data:
+    neo4j:
+      uri: "http://localhost:7474"
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+
+twitter:
+  consumerKey: HA1pgWb7Zgfo5VX4VPQ5DtGPt
+  consumerSecret: aynlpE7dNY4OyLxfXQb6Ni5ntB4WU3KWSnodhQeeMxZDXj7oDl
+  apiToken: AAAAAAAAAAAAAAAAAAAAACz9IwEAAAAAiiwliLryhSM4L45yG8B0QY5ATUo%3D6R6lnNjZIXfr0FT0xrQpyesspC5qgEVJKj40XE2B1ldW7M6w9J
+  apiSecretToken:  aynlpE7dNY4OyLxfXQb6Ni5ntB4WU3KWSnodhQeeMxZDXj7oDl
+
+server:
+  port: 8081
+
+neo4j:
+  username: "neo4j"
+  password: "admin"
